@@ -1,19 +1,27 @@
-# Virtual environment
+# Python virtual environment
 venv/
 .venv/
 
-# Environment variables
+# Environment variables / secrets
 .env
+.env.*
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
 # IDE
 .vscode/
 .idea/
 
-# PostgreSQL/database dumps
-*.sql
-*.dump
-*.backup    
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
